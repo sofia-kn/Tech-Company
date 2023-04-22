@@ -467,6 +467,9 @@ textarea {
   width: 100%;
   text-align: center;
 }
+.footer-wrapper__menu{
+
+}
 .footer-logo {
   margin-top: 20px;
 }
@@ -516,6 +519,29 @@ textarea {
   }
   .memberInfo-title h2{
     color: var(--black-color);
+  }
+  .footer-wrapper__menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+  .footer-menu{
+    margin: 40px 0;
+  }
+
+  .footer-logo{
+    margin-top: 0px;
+    
+  }
+  .footer-logo__img {
+    width: 200px;
+}
+  .footer-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
   }
 
 }
