@@ -202,7 +202,7 @@ body {
 .info-wrapper {
 }
 .info-desc {
-  width: 300px;
+  min-width: 300px;
   line-height: 18px;
   letter-spacing: 0.3px;
 }
@@ -246,7 +246,7 @@ body {
   border-top-right-radius: 138px;
   border-bottom-left-radius: 138px;
   background-size: cover;
-  width: 300px;
+  min-width: 300px;
   height: 203px;
   background-image: linear-gradient(
       rgba(235, 63, 94, 0.52),
@@ -431,8 +431,11 @@ textarea {
   border: none;
   margin: 15px 0;
   box-shadow: 5px 5px 10px 0px rgba(170, 170, 204, 0.5) inset;
+
 }
+
 textarea {
+  resize: none;
   padding: 12px 20px 80px !important;
 }
 :is(input[type="text"], input[type="email"], textarea):focus {
@@ -498,6 +501,23 @@ textarea {
 /* ========== Responsive ========== */
 
 @media (min-width: 768px) {
+  .aboutUs-image {
+    border-top-right-radius: 290px;
+    border-bottom-left-radius: 290px;
+    min-width: 300px;
+    height: 400px;
+  }
+  .future-image{
+    border-top-left-radius: 290px;
+    border-bottom-right-radius: 290px;
+    min-width: 100%;
+    height: 400px;
+
+  }
+  .memberInfo-title h2{
+    color: var(--black-color);
+  }
+
 }
 @media (min-width: 1200px) {
   .nav-menu {
