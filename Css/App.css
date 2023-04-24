@@ -531,7 +531,7 @@ textarea {
   .future-image{
     border-top-left-radius: 290px;
     border-bottom-right-radius: 290px;
-    min-width: 100%;
+    /* min-width: 100%; */
     height: 400px;
 
   }
@@ -605,6 +605,9 @@ textarea {
 .aboutUs-desc--2{
   display: block;
 }
+.info-desc__text2--2{
+  font-size: 18px;line-height: 24px;
+}
 .aboutUs-desc{
   display: none;
 }
@@ -616,8 +619,28 @@ textarea {
 .aboutUs-title{
   margin-bottom: 51px;
 }
-
-
+ 
+.future-wrapper {
+  display: flex;
+}
+.future-image{
+  flex-basis: 60%;
+  border-top-left-radius: 250px;
+  border-bottom-right-radius: 250px;
+  margin-right: 100px;
+}
+.future-descriptions{
+  flex-basis: 50%;
+}
+.future-box__img img{
+  width: 50px;
+}
+.future-text p {
+  
+  font-size: 18px;
+  line-height: 24px;
+  width: 80%;
+}
 }
 
 /* ========== Responsive ========== */
