@@ -304,7 +304,7 @@ body {
   border-top-left-radius: 138px;
   border-bottom-right-radius: 138px;
   background-size: cover;
-  width: 297px;
+  min-width: 297px;
   height: 187px;
   background-image: linear-gradient(
       110.76deg,
@@ -555,6 +555,31 @@ textarea {
   .nav-menu__btn {
     display: none;
   }
+  .info{
+    display: none;
+  }
+  .aboutUs {
+    margin-top: 60px;
+}
+  .aboutUs-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.aboutUs-image{
+  flex-basis: 50%;
+}
+.aboutUs-image {
+  border-top-right-radius: 220px;
+  border-bottom-left-radius: 220px;
+  min-width: 300px;
+  height: 400px;
+  padding-left: 40px;
+}
+.aboutUs-descriptions{
+  flex-basis: 50%;
+}
+
+
 }
 
 /* ========== Responsive ========== */
