@@ -267,6 +267,7 @@ body {
 }
 .aboutUs-img {
   width: 64px;
+  height: 15px;
 }
 .aboutUs-desc {
   margin-top: 18px;
@@ -282,6 +283,23 @@ body {
 .info-desc__title {
 }
 .info-desc__text2 {
+}
+.aboutUs-desc--2{
+  display: none;
+  margin: 0px 50px 30px 0;
+  
+}
+.info-desc__title--2{
+  margin-bottom: 15px;
+    width: 84%;
+    color: var(--red-color);
+    line-height: 39px;
+    font-weight: 700;
+    font-size: 36px;
+}
+.info-desc__text2--2 {
+  font-size: 21px;
+  color: var(--black-color);
 }
 .aboutUs-botton {
   text-align: right;
@@ -564,19 +582,39 @@ textarea {
   .aboutUs-wrapper {
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
 }
 .aboutUs-image{
   flex-basis: 50%;
 }
 .aboutUs-image {
-  border-top-right-radius: 220px;
-  border-bottom-left-radius: 220px;
+  border-top-right-radius: 250px;
+  border-bottom-left-radius:250px;
   min-width: 300px;
   height: 400px;
   padding-left: 40px;
 }
 .aboutUs-descriptions{
   flex-basis: 50%;
+  padding: 20px 40px;
+}
+.aboutUs-botton {
+  text-align: left;
+}
+.aboutUs-desc--2{
+  display: block;
+}
+.aboutUs-desc{
+  display: none;
+}
+.aboutUs-title h3{
+  font-size: 36px;
+  line-height: 49px;
+
+}
+.aboutUs-title{
+  margin-bottom: 51px;
 }
 
 
