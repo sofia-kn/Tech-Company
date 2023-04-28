@@ -5,7 +5,7 @@
 :root {
   --background: #f5f5fa;
   --black-color: #000000;
-  --dark-gray: #597188;
+  --dark-gray: rgba(69, 70, 84, 1);
   --red-color: #eb3f57;
   --dark: #454645;
   --white: #fff;
@@ -376,7 +376,7 @@ body {
   flex-direction: column;
   width: 100%;
 }
-.products-title h5 {
+.products-title h3 {
   text-transform: uppercase;
   color: var(--dark);
 }
@@ -387,6 +387,9 @@ body {
   display: flex;
   flex-direction: column;
 }
+.products-box__wrapper {
+}
+
 .products-box {
   display: flex;
   justify-content: center;
@@ -408,6 +411,26 @@ body {
   font-weight: 800;
   font-size: 18px;
   line-height: 27px;
+}
+.products-box__info {
+  display: none;
+  margin-top: 12px;
+}
+.products-box__info h3 {
+  font-size: 21px;
+  color: var(--dark-gray);
+  font-weight: 700;
+}
+.products-box__info p {
+  color: var(--dark-gray);
+  margin: 12px 0;
+}
+.products-box__info a {
+  text-decoration: none;
+  color: var(--red-color);
+  border-bottom: 1px solid var(--red-color);
+  font-size: 12px;
+  font-weight: bold;
 }
 
 /* todo End Products Section  */
@@ -590,7 +613,8 @@ textarea {
     padding: 20px 40px;
   }
   .aboutUs-img,
-  .future-img {
+  .future-img ,
+  .products-title__img{
     height: 15px;
   }
   .aboutUs-botton {
@@ -607,12 +631,14 @@ textarea {
     display: none;
   }
   .aboutUs-title h3,
-  .future-title h3 {
+  .future-title h3 ,
+  .products-title h3{
     font-size: 36px;
     line-height: 1.2;
   }
   .aboutUs-title,
-  .future-title {
+  .future-title,
+  .products-title {
     margin-bottom: 50px;
   }
 
@@ -638,17 +664,30 @@ textarea {
     line-height: 24px;
     width: 80%;
   }
+  .products{
+    margin-top: 150px;
+  }
+ 
   .products-boxes {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 0 75px;
   }
-  .products-box{
+  .products-box__wrapper {
     flex-basis: 30%;
+  }
+  .products-box {
     border-radius: 0px;
   }
-  .products-box:nth-child(2){
+  .products-box__wrapper:nth-child(2) {
     margin-top: 90px;
+  }
+  .products-box__title {
+    display: none;
+  }
+  .products-box__info {
+    display: block;
   }
 }
 
