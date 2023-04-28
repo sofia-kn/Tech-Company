@@ -435,12 +435,12 @@ body {
 
 /* todo End Products Section  */
 
-/* todo Start MembersInfo Section  */
+/* todo Start MembersInfo1 Section  */
 
-.membersInfo {
+.membersInfo1 {
   margin-top: 50px;
 }
-.membersInfo-wrapper {
+.membersInfo1-wrapper {
   display: flex;
   flex-direction: column;
 }
@@ -455,7 +455,7 @@ body {
   margin: 20px 0;
   color: var(--text-color);
 }
-.membersInfo-form {
+.membersInfo1-form {
 }
 .form {
 }
@@ -478,17 +478,17 @@ textarea {
   border: 2px solid var(--dark);
 }
 
-.membersInfo-botton {
+.membersInfo1-botton {
   text-align: right;
 }
 
-.membersInfo-botton a {
+.membersInfo1-botton a {
   padding: 6px;
   text-transform: uppercase;
   font-weight: 700;
 }
 
-/* todo End MembersInfo Section  */
+/* todo End MembersInfo1 Section  */
 /* ========== End Main ========== */
 
 /* ========== Start Footer ========== */
