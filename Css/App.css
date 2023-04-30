@@ -489,6 +489,84 @@ textarea {
 }
 
 /* todo End MembersInfo1 Section  */
+
+/* todo Start MembersInfo2 Section  */
+
+.membersInfo2 {
+}
+.membersInfo2-wrapper {
+  background-color:var(--white);
+  display: flex;
+  margin-top: 50px;
+  border-radius: 15px;
+}
+.membersInfo2-left {
+  flex-basis: 60%;
+  padding: 60px 45px 30px 45px;
+}
+.membersInfo2-left .memberInfo-title {
+  margin-bottom: 65px;
+}
+.membersInfo2-left .memberInfo-title h2 {
+  color: var(--red-color);
+  font-size: 33px;
+  font-weight: 700;
+}
+.membersInfo2-left .memberInfo-title p {
+  font-size: 20px;
+}
+.membersInfo2-right {
+  flex-basis: 40%;
+  height: auto;
+}
+.membersInfo2-right__wrapper {
+}
+.membersInfo2-right__img {
+  height: auto;
+  position: relative;
+}
+.membersInfo2-right__img img {
+  width: 100%;
+}
+.membersInfo2-right__desc {
+  position: absolute;
+  top: 170px;
+  left: 75px;
+  padding: 0 53px 0 30px;
+  color: var(--white);
+}
+.membersInfo2-right__desc h3 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.membersInfo2-right__desc p,
+.membersInfo2-contact__item span {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 20px
+}
+.membersInfo2-right__contact {
+  margin: 30px 0;
+}
+.membersInfo2-contact__item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.membersInfo2-contact__item img {
+  width: 12px;
+  margin-right: 20px;
+}
+.membersInfo2-right__socialMedia {
+  display: flex;
+}
+.membersInfo2-right__socialMedia img {
+  width: 20px;
+  margin-right: 25px;
+}
+
+/* todo End MembersInfo2 Section  */
 /* ========== End Main ========== */
 
 /* ========== Start Footer ========== */
@@ -613,8 +691,8 @@ textarea {
     padding: 20px 40px;
   }
   .aboutUs-img,
-  .future-img ,
-  .products-title__img{
+  .future-img,
+  .products-title__img {
     height: 15px;
   }
   .aboutUs-botton {
@@ -631,8 +709,8 @@ textarea {
     display: none;
   }
   .aboutUs-title h3,
-  .future-title h3 ,
-  .products-title h3{
+  .future-title h3,
+  .products-title h3 {
     font-size: 36px;
     line-height: 1.2;
   }
@@ -664,10 +742,10 @@ textarea {
     line-height: 24px;
     width: 80%;
   }
-  .products{
+  .products {
     margin-top: 150px;
   }
- 
+
   .products-boxes {
     display: flex;
     flex-direction: row;
