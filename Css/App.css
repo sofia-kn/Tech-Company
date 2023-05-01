@@ -493,6 +493,7 @@ textarea {
 /* todo Start MembersInfo2 Section  */
 
 .membersInfo2 {
+  display: none;
 }
 .membersInfo2-wrapper {
   background-color:var(--white);
@@ -608,6 +609,10 @@ textarea {
 }
 .footer-text p {
   margin-bottom: 14px;
+}
+
+.footer .container:nth-child(2){
+  width: 100%;
 }
 
 /* todo End Footer Section  */
@@ -770,6 +775,9 @@ textarea {
   .membersInfo1{
     display: none;
   }
+  .membersInfo2{
+    display: block;
+  }
   .footer-text{
     width: 100% !important;
     margin-bottom: 0;
@@ -782,7 +790,7 @@ textarea {
   .footer-borderBottom{
     border: 1px solid rgba(240, 237, 237, 1);
     margin: 10px 0;
-    display: block;
+
   }
  
   }
