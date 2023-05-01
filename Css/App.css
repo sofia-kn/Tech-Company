@@ -497,7 +497,7 @@ textarea {
 .membersInfo2-wrapper {
   background-color:var(--white);
   display: flex;
-  margin-top: 50px;
+  margin-top: 150px;
   border-radius: 15px;
 }
 .membersInfo2-left {
@@ -574,7 +574,7 @@ textarea {
 /* todo Start Footer Section  */
 
 .footer {
-  margin-top: 50px;
+  margin-top: 85px;
   background-color: var(--white);
 }
 .footer-wrapper {
@@ -767,6 +767,24 @@ textarea {
   .products-box__info {
     display: block;
   }
-}
+  .membersInfo1{
+    display: none;
+  }
+  .footer-text{
+    width: 100% !important;
+    margin-bottom: 0;
+  }
+  
+  .footer-menu {
+    margin: 0;
+    
+  }
+  .footer-borderBottom{
+    border: 1px solid rgba(240, 237, 237, 1);
+    margin: 10px 0;
+    display: block;
+  }
+ 
+  }
 
 /* ========== Responsive ========== */
