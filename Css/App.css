@@ -503,7 +503,7 @@ textarea {
 }
 .membersInfo2-left {
   flex-basis: 60%;
-  padding: 60px 45px 30px 45px;
+  padding: 100px 45px 0px 45px;
 }
 .membersInfo2-left .memberInfo-title {
   margin-bottom: 65px;
