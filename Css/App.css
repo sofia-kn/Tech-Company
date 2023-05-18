@@ -497,6 +497,10 @@ textarea {
 .membersInfo2 {
   display: none;
 }
+.membersInfo2 .container{
+  width: 80%;
+ 
+}
 .membersInfo2-wrapper {
   background-color:var(--white);
   display: flex;
@@ -504,8 +508,8 @@ textarea {
   border-radius: 15px;
 }
 .membersInfo2-left {
-  flex-basis: 60%;
-  padding: 100px 45px 0px 45px;
+  flex-basis: 80%;
+  padding:45px;
 }
 .membersInfo2-left .memberInfo-title {
   margin-bottom: 65px;
@@ -519,7 +523,7 @@ textarea {
   font-size: 20px;
 }
 .membersInfo2-right {
-  flex-basis: 40%;
+  flex-basis: 72%;
   height: auto;
 }
 .membersInfo2-right__wrapper {
