@@ -60,6 +60,17 @@ body {
   color: var(--white);
 }
 
+ 
+.info ,
+.aboutUs,
+.future,
+.products,
+.membersInfo1,
+.membersInfo2,
+.footer{
+  margin-top: 80px !important;
+}
+
 /* ? ===== Helper Class ===== */
 /* ========== Start Header ========== */
 
@@ -262,7 +273,7 @@ body {
 /* todo Start AboutUs Section  */
 
 .aboutUs {
-  margin-top: 50px;
+
 }
 .aboutUs-wrapper {
   display: flex;
@@ -338,7 +349,7 @@ body {
 /* todo Start Future Section  */
 
 .future {
-  margin-top: 50px;
+ 
 }
 .future-wrapper {
 }
@@ -397,7 +408,7 @@ body {
 /* todo Start Products Section  */
 
 .products {
-  margin-top: 50px;
+ 
 }
 .products-wrapper {
   display: flex;
@@ -466,11 +477,12 @@ body {
 /* todo Start MembersInfo1 Section  */
 
 .membersInfo1 {
-  margin-top: 50px;
+ 
 }
 .membersInfo1-wrapper {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .memberInfo-title {
 }
@@ -530,7 +542,7 @@ textarea {
 .membersInfo2-wrapper {
   background-color:var(--white);
   display: flex;
-  margin-top: 150px;
+  margin-top: 100px;
   border-radius: 15px;
   justify-content: center;
   align-items: center;
@@ -615,7 +627,7 @@ textarea {
 /* todo Start Footer Section  */
 
 .footer {
-  margin-top: 85px;
+  
   background-color: var(--white);
 }
 .footer-wrapper {
@@ -649,6 +661,7 @@ textarea {
 }
 .footer-text p {
   margin-bottom: 14px;
+ 
 }
 
 .footer .container:nth-child(2){
@@ -797,7 +810,7 @@ textarea {
     width: 80%;
   }
   .products {
-    margin-top: 150px;
+   
   }
 
   .products-boxes {
