@@ -633,8 +633,13 @@ textarea {
 .footer-wrapper {
   width: 100%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
 }
 .footer-wrapper__menu {
+  margin-bottom: 15px;
+  
 }
 .footer-logo {
   margin-top: 20px;
@@ -659,14 +664,22 @@ textarea {
   color: var(--dark);
   font-weight: 600;
 }
+.footer-text{
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+}
 .footer-text p {
-  margin-bottom: 14px;
- 
+  
+   
 }
 
-.footer .container:nth-child(2){
+/* .footer .container:nth-child(2){
   width: 100%;
-}
+} */
 
 /* todo End Footer Section  */
 
@@ -712,7 +725,8 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 25px;
+    flex-direction: row;
+    
   }
 }
 @media (min-width: 1200px) {
@@ -807,7 +821,7 @@ textarea {
   .future-text p {
     font-size: 18px;
     line-height: 24px;
-    width: 80%;
+    
   }
   .products {
    
@@ -841,8 +855,7 @@ textarea {
     display: block;
   }
   .footer-text{
-    width: 100% !important;
-    margin-bottom: 0;
+    
   }
   
   .footer-menu {
