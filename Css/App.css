@@ -165,17 +165,14 @@ body {
 .main {
 }
 .desc {
-  /* background-color:green ;
-  height: 40rem; */
-  
-  
   width: 100%;
+  height: 300px;
 }
 .background {
   position: relative;
   background-image: url(../Public/Images/Background\ \(3\).png);
   width: 100%;
-  height: 675px;
+  height: 100%;
   background-size: cover;
   background-position: center;
   text-align: center;
@@ -202,8 +199,8 @@ body {
 .background-info__desc{
   margin: 15px 0; 
   font-size: 20px;
-    color: rgba(255, 255, 255, 0.8);
-    line-height: 25px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 25px;
 
 }
 .background-info__btn{
@@ -216,13 +213,7 @@ body {
 
 }
 
-/* .background-shape {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  width: 100%;
-} */
+
 
 /* todo End Desc Section  */
 
@@ -663,6 +654,9 @@ textarea {
 /* ========== Responsive ========== */
 
 @media (min-width: 768px) {
+  .desc{
+    height: 300px;
+  }
   .aboutUs-image {
     border-top-right-radius: 290px;
     border-bottom-left-radius: 290px;
@@ -701,6 +695,9 @@ textarea {
   }
 }
 @media (min-width: 1200px) {
+  .desc{
+    height: 675px;
+  }
   .nav-menu {
     display: none;
   }
