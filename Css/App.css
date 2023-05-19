@@ -524,7 +524,7 @@ textarea {
   display: none;
 }
 .membersInfo2 .container{
-  width: 80%;
+  width: 70%;
  
 }
 .membersInfo2-wrapper {
@@ -532,10 +532,16 @@ textarea {
   display: flex;
   margin-top: 150px;
   border-radius: 15px;
+  justify-content: center;
+  align-items: center;
 }
 .membersInfo2-left {
-  flex-basis: 80%;
-  padding:45px;
+
+  padding:0 40px;
+  display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
 }
 .membersInfo2-left .memberInfo-title {
   margin-bottom: 65px;
@@ -549,27 +555,29 @@ textarea {
   font-size: 20px;
 }
 .membersInfo2-right {
-  flex-basis: 72%;
+  
   height: auto;
+  width: 100%;
 }
 .membersInfo2-right__wrapper {
 }
 .membersInfo2-right__img {
   height: auto;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .membersInfo2-right__img img {
   width: 100%;
 }
 .membersInfo2-right__desc {
   position: absolute;
-  top: 170px;
-  left: 75px;
-  padding: 0 53px 0 30px;
+  left: 100px;
   color: var(--white);
 }
 .membersInfo2-right__desc h3 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 700;
   margin-bottom: 20px;
 }
@@ -796,7 +804,7 @@ textarea {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin: 0 75px;
+    margin: 0 150px;
   }
   .products-box__wrapper {
     flex-basis: 30%;
